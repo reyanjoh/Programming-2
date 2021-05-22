@@ -47,7 +47,7 @@ int main(){
         }
 
         result = userInput(result);
-        printf("%d", result);
+        printf("sum of all array elements :%d", result);
 
     return 0;
 
