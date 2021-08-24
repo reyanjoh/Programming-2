@@ -28,9 +28,9 @@ int main()
     for (int i = 0; i < numOfStudents; i++){
 
         char filename[50], name[100];
-        int id, math, sci, eng, total;
+        int id, math, sci, eng;
 
-        sprintf(filename, "E:Student%d.txt", i+1);
+        sprintf(filename, "Student%d.txt", i+1);
 
         files[i] = fopen(filename, "w+");
 
